@@ -9,31 +9,38 @@
 }
 
 
-
 .container-box {
     display: flex;
     width: 700px;
     height: 400px;
-    border: 2px solid black;
     margin: 100px auto;
 }
 
 .box {
     width: 100%;
     height: 100%;
-    border: 1px solid black;
-    background-color: red;
 }
 
 .box-title {
-    background-color: blue;
-    height: calc(100% / 2);
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 5px solid teal;
+}
 
+.box-top img {
+    width: 25px;
 }
 
 .box-text {
-    background-color: teal;
-    height: calc(100% / 2);
+    padding: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.fa-arrow-alt-circle-left, .fa-arrow-alt-circle-right {
+    font-size: 50px;
+    color: teal;
 }
 
 
